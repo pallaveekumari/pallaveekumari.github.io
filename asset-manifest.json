@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cedf0073.css",
-    "main.js": "/static/js/main.048f763a.js",
+    "main.css": "/static/css/main.b4f90b40.css",
+    "main.js": "/static/js/main.176fb11c.js",
+    "static/media/resume.pdf": "/static/media/resume.7e3189575b87a25cc979.pdf",
     "static/media/bellavitta.png": "/static/media/bellavitta.51ab56135a1f37105de6.png",
+    "static/media/pal.jpg": "/static/media/pal.2141eec2377f0da7efd8.jpg",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
@@ -12,11 +14,11 @@
     "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/index.html",
-    "main.cedf0073.css.map": "/static/css/main.cedf0073.css.map",
-    "main.048f763a.js.map": "/static/js/main.048f763a.js.map"
+    "main.b4f90b40.css.map": "/static/css/main.b4f90b40.css.map",
+    "main.176fb11c.js.map": "/static/js/main.176fb11c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cedf0073.css",
-    "static/js/main.048f763a.js"
+    "static/css/main.b4f90b40.css",
+    "static/js/main.176fb11c.js"
   ]
 }
