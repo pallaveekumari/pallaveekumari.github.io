@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cedf0073.css",
+    "main.js": "/static/js/main.048f763a.js",
+    "static/media/bellavitta.png": "/static/media/bellavitta.51ab56135a1f37105de6.png",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.cedf0073.css.map": "/static/css/main.cedf0073.css.map",
+    "main.048f763a.js.map": "/static/js/main.048f763a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cedf0073.css",
+    "static/js/main.048f763a.js"
+  ]
+}
