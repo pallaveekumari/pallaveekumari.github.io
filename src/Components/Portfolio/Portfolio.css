@@ -1,0 +1,27 @@
+.portfolio>span{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.maindiv{
+    height: 30rem;
+    width: 20rem;
+    border: 1px solid red;
+}
+.imgdiv{
+    height: 12rem;
+    width: 20rem;
+
+}
+.imgdiv>img{
+    height: 100%;
+    width: 100%;
+}

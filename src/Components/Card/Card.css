@@ -1,0 +1,33 @@
+.card{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+    width: 6rem;
+    text-align: center;
+    background: rgba(255,255,255,0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+border-radius: 20px;
+padding: 0px 26px 2rem 26px;
+
+
+}
+.cardspan{
+
+    color: var(--black);
+    font-size: 23px;
+    font-weight: bold; 
+   margin-top: -25px;
+}
+
+@media screen and (max-width:480px) {
+.card{
+    width: auto;
+}
+    
+}
