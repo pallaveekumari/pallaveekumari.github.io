@@ -2,7 +2,7 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .w-right{
@@ -166,7 +166,16 @@ position: absolute;
     .w-mainCircle{
         position: static;
     }
-    
+     /* .awesome{
+       margin-left: -14.5rem;
+        margin-top: 25rem;
+    }  */
+    .work{
+        margin-top: -15rem;
+        display: grid;
+        flex-direction: column;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -179,5 +188,8 @@ position: absolute;
 }
 .w-mainCircle2{
     position: static;
+}
+.w-right2{
+    margin-left: -6rem;
 }
 }

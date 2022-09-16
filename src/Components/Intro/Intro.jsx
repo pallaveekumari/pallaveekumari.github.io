@@ -10,6 +10,8 @@ import Crown from "../../img/crown.png"
 import glassesimoji from "../../img/glassesimoji.png"
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 // import {motion} from "framer-motion"
+import resume from "../../img/resume.pdf"
+import pal from "../../img/pal.jpg"
 const Intro = () => {
 
   const transition ={duration:2 ,type:"spring"}
@@ -18,7 +20,7 @@ const Intro = () => {
     <div className='intro' id='About'>
       <div className='i=left'>
         <div className='i-name'>
-        <span>Hey I'm Pallavee</span>
+        <span>Hey 👋 I'm Pallavee</span>
         <span>Welcome to my portfolio!</span>
         <span>I am a passionate Full Stack Web 
             Developer with the ability to 
@@ -26,9 +28,9 @@ const Intro = () => {
              optimised code.
         </span>
         </div>
-        {/* <a href={Resume} download></a> */}
+        <a href={resume} download>
         <button className='button i-button'>Resume</button>
-      
+        </a>
 
 
    <div className='i-icons'>
@@ -51,11 +53,11 @@ const Intro = () => {
 
       <div className='i-right'>
 <div></div>
-<div></div>
-         {/* <img src={Vector1} alt="" />
-         <img src={Vector2} alt="" /> */}
-         {/* <img src="" alt="" /> */}
-         <img src={glassesimoji} alt="" />
+<div className='pimgdiv'>
+       
+          <img className='palimg' src={pal} alt="" /> 
+          </div>
+         <img className="emoji" src={glassesimoji} alt="" />
 <div style={{top:"-4%",left:"68%"}} className="floating-div">
     <FloatingDiv image={Crown} txt1="Web" txt2="Developer"/>
 </div>

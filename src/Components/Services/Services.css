@@ -61,5 +61,14 @@ position: relative;
     .cards>*{
         position: static;
     }
-    
+    .awesome{
+        margin-top: 4rem;
+    }
+    .time{
+       
+      margin-top: -4rem;
+    }
+    .adap{
+        margin-top: -4rem;
+    }
 }

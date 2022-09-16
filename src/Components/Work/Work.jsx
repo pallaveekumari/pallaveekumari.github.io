@@ -10,7 +10,7 @@ const Work = () => {
                 <div className='blur s-blurl' style={{background:"#ABF1FF94"}}></div>
         
         
-        </div>
+                </div>
 
 
    <div className='w-right'>

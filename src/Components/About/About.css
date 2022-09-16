@@ -9,6 +9,13 @@
     position: relative;
    
 }
+.about{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: auto;
+}
+
 .s-blur1{
     left: 38rem;
     top: 16rem;
@@ -18,18 +25,25 @@
     left: 0;
 }
 .t-wrapper1{
-height: 20rem;
+height: 18rem;
 width: 40rem;
 margin: auto;
     background: rgba(255,255,255,0.26);
     border: 7px solid var(--blueCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
+    margin-top: -2rem;
     
 }
 @media screen and (max-width:480px){
     .t-wrapper{
         padding: 0;
+        margin-top: -30rem;
     }
-    
+    .t-wrapper1{
+      
+        height: 40rem;
+        width: 15rem;
+        margin: 1rem;
+}
 }

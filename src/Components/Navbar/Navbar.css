@@ -37,11 +37,14 @@
     cursor: pointer;
 }
 
-.n-list>ul>li:hover{
+/* .n-list>ul>li:hover{
 cursor: pointer;
 color: var(--orange);
-}
+} */
+li:hover{
+    color: var(--orange);
 
+}
 .n-button{
     flex: 2;
 }

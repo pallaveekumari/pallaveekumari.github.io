@@ -22,13 +22,13 @@ const Services = () => {
     emoji={HeartEmoji}
     heading={"Team Work"}/>
 </div>
-<div style={{top:"12rem",left:"-4rem"}}>
+<div className="time" style={{top:"12rem",left:"-4rem"}}>
     <Card
     emoji={Glasses}
     heading={"Time Management"}
     />
 </div>
-<div style={{top:"19rem",left:"12rem"}}>
+<div className="adap" style={{top:"19rem",left:"12rem"}}>
 <Card
 emoji={Humble}
 heading={"Adaptability"}
