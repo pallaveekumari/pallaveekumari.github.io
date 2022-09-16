@@ -17,7 +17,7 @@ const Intro = () => {
   const transition ={duration:2 ,type:"spring"}
 
   return (
-    <div className='intro' id='About'>
+    <div className='intro' id='Navhome'>
       <div className='i=left'>
         <div className='i-name'>
         <span>Hey 👋 I'm Pallavee</span>
@@ -58,7 +58,7 @@ const Intro = () => {
           <img className='palimg' src={pal} alt="" /> 
           </div>
          {/* <img className="emoji" src={glassesimoji} alt="" /> */}
-<div style={{top:"-4%",left:"68%"}} className="floating-div">
+<div style={{top:"-4%",left:"50%"}} className="floating-div">
     <FloatingDiv image={Crown} txt1="Web" txt2="Developer"/>
 </div>
 
@@ -74,6 +74,7 @@ width:"21rem",
 height: "11rem",
 left: "-9rem"
 }}>
+
 
 </div>
       </div>

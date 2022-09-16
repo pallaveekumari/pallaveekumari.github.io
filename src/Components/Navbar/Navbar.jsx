@@ -4,7 +4,7 @@ import "./Navbar.css"
 import {Link} from "react-scroll"
 const Navbar = () => {
   return (
-    <div className='n-wrapper'>
+    <div className='n-wrapper' >
       <div className='n-left'>
         <div className='n-name'>Pallavee</div>
         <Toggle/>
@@ -13,18 +13,18 @@ const Navbar = () => {
 
         <div className='n-list'>
             <ul style={{listStyleType:"none"}}>
-              <Link spy={true} to="Navbar" smooth={true} activeClass='activeClass'>
+              <Link spy={true} to="Navhome" smooth={true} activeClass='activeClass'>
                 <li>Home</li>
                 </Link>
-                <Link spy={true} to="About" smooth={true} activeClass='activeClass'>
+                <Link spy={true} to="Aboutwrapper" smooth={true} activeClass='activeClass'>
 
                 <li>About</li>
                 </Link>
-                <Link spy={true} to="Tech skills" smooth={true} activeClass='activeClass'>
+                <Link spy={true} to="Tech_skills" smooth={true} activeClass='activeClass'>
 
                 <li>Tech skills</li>
                 </Link>
-                <Link spy={true} to="Soft skills" smooth={true} activeClass='activeClass'>
+                <Link spy={true} to="Soft_skills" smooth={true} activeClass='activeClass'>
 
                 <li>Soft skills</li>
                 </Link>
@@ -36,9 +36,11 @@ const Navbar = () => {
 
             </ul>
         </div>
+        <Link spy={true} to="contact" smooth={true} activeClass='activeClass'>
         <button className='button n-button' >
             contact
         </button>
+        </Link>
       </div>
     </div>
   )

@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.2.1",
     "emailjs": "^4.0.1",
     "framer-motion": "^7.3.5",
+    "github-calendar": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",

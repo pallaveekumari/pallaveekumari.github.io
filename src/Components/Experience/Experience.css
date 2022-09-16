@@ -45,3 +45,17 @@ box-shadow: var(--boxShadow);
 {
     color: var(--orange);
 }
+@media screen and (max-width:480px) {
+
+   .experience{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+   }
+   .circle{
+    width: 8rem;
+    height: 8rem;
+    margin-top: -4rem;
+}
+
+}

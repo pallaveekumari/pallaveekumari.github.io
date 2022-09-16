@@ -8,6 +8,7 @@
     align-items: center;
     padding: 0px 28px 0px 0px;
     height: 4.5rem;
+    
 }
 
 .floatingdiv>img{
@@ -16,5 +17,5 @@
 
 .floatingdiv>span{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 30px;
 }

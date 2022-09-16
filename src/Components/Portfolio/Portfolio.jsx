@@ -3,11 +3,15 @@ import "./Portfolio.css"
 import bellavitta from "../../img/bellavitta.png"
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
-       <span> Projects</span>
+    <div className='portfolio' id="Projects">
+       <div className='awesome'>
+                <span>My Recent</span>
+                <span>Projects</span>
+                <div className='blur s-blurl' style={{background:"#ABF1FF94"}}></div>
+                <div className='blur s-blurl' style={{background:"var(--purple)",left:"-30%",top:"50%"}}></div>
+        </div>
 
-
-
+       
 
        <div className='maindiv'>
           <h2>BellaVitta Organic Clone</h2>

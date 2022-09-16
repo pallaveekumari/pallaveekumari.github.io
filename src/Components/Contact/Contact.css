@@ -47,3 +47,18 @@ margin-top: 2rem;
 .email{
     margin-top: 0.5rem;
 }
+
+@media screen and (max-width:480px) {
+
+.contact-form{
+    margin-top: 25rem;
+    display: grid;
+    margin-bottom: 10rem;
+    
+}
+.user{
+  margin-left: -2rem;
+ 
+}
+
+}

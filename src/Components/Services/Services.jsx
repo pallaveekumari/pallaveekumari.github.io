@@ -6,7 +6,7 @@ import Humble from "../../img/humble.png"
 import Card from '../Card/Card'
 const Services = () => {
   return (
-    <div className='services' >
+    <div className='services' id="Soft_skills">
 
     
         <div className='awesome'>

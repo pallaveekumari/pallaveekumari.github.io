@@ -9,6 +9,7 @@ import Services from "./Components/Services/Services";
 import Work from "./Components/Work/Work";
 import {themeContext} from "./Context"
 import {useContext} from "react"
+import Calendar from "./Calendar/Calendar";
 
 function App() {
 
@@ -29,6 +30,7 @@ const darkMode=theme.state.darkMode;
      <Work/>
      <Portfolio/>
      <Experience/>
+     <Calendar/>
      <Contact/>
     </div>
   );

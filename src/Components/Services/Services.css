@@ -54,12 +54,16 @@ position: relative;
         padding: 0;
     }
     .cards{
+       
         display: flex;
         flex-direction: column;
         gap: 17rem;
+        
+        /* border: 1px solid red; */
     }
     .cards>*{
         position: static;
+        /* padding: 4rem; */
     }
     .awesome{
         margin-top: 4rem;
