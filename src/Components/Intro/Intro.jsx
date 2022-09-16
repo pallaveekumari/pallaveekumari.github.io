@@ -57,7 +57,7 @@ const Intro = () => {
        
           <img className='palimg' src={pal} alt="" /> 
           </div>
-         <img className="emoji" src={glassesimoji} alt="" />
+         {/* <img className="emoji" src={glassesimoji} alt="" /> */}
 <div style={{top:"-4%",left:"68%"}} className="floating-div">
     <FloatingDiv image={Crown} txt1="Web" txt2="Developer"/>
 </div>

@@ -9,12 +9,19 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
+     gap: 1rem; 
 }
 
 .maindiv{
-    height: 30rem;
+    height: 28rem;
     width: 20rem;
-    border: 1px solid red;
+  
+    background: rgba(255,255,255,0.26);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    /* padding:5px; */
+   
 }
 .imgdiv{
     height: 12rem;
@@ -24,4 +31,8 @@
 .imgdiv>img{
     height: 100%;
     width: 100%;
+}
+.gitbtn{
+    display: flex;
+    gap: 0.5rem;
 }
