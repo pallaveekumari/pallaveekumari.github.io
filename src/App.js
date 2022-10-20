@@ -1,37 +1,38 @@
-import "./App.css"
-import About from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import Experience from "./Components/Experience/Experience";
-import Intro from "./Components/Intro/Intro";
-import Navbar from "./Components/Navbar/Navbar";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Services from "./Components/Services/Services";
-import Work from "./Components/Work/Work";
-import {themeContext} from "./Context"
-import {useContext} from "react"
-import Calendar from "./Calendar/Calendar";
+import Navbar1 from "./components/Navbar/Navbar";
+import "./App.css";
+import Intro from "./components/Intro/Intro";
+import SoftSkills from "./components/SoftSkills/SoftSkills";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import { themeContext } from "./Context";
+import { useContext } from "react";
+import Skills from "./components/Skills/Skills";
+import About from "./components/About/About";
 
 function App() {
-
-const theme=useContext(themeContext)
-const darkMode=theme.state.darkMode;
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
-    <div className="App"
-    style={{
-      background: darkMode ? "black" : "",
-      color:darkMode?"white":""
-    }} 
+    <div
+      className="App"
+      style={{
+        background: darkMode
+          ? "linear-gradient(to top right,black,rgb(67, 5, 67))"
+          : "",
+        color: darkMode ? "white" : "",
+      }}
     >
-     <Navbar/>
-     <Intro/>
-     <About/>
-     <Services/>
-     <Work/>
-     <Portfolio/>
-     <Experience/>
-     <Calendar/>
-     <Contact/>
+      <Navbar1 />
+      <Intro />
+      <About />
+
+      <Skills />
+      <SoftSkills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

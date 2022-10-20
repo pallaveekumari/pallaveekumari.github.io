@@ -1,13 +1,13 @@
-import React from 'react'
-import "./Card.css"
-const Card = ({emoji,heading}) => {
-  return (
-    <div className='card'>
+import React from 'react';
+import "./Card.css";
 
-        <img src={emoji} alt="" />
-         <span className='cardspan'>{heading}</span>
+const Card = ({image,heading}) => {
+  return (
+    <div className="card">
+        <img src={image} alt="" />
+        <span>{heading}</span>
     </div>
   )
 }
 
-export default Card
+export default Card;

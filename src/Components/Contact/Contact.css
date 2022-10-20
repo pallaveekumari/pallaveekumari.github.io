@@ -1,64 +1,85 @@
-.contact-form{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 80vh;
-    margin-top: 4rem;
+.contact-form {
+  padding: 0.5rem 9.5rem;
+  display: flex;
+  height: auto;
+  margin-top: 4rem;
+  /* border: 5px solid red; */
+  width: 100%;
+  /* position: relative; */
+  /* z-index: 1; */
 }
 
-.c-right{
-    display: flex;
-    justify-content: center;
-    position:relative;
-    flex: 1;
-}
-.c-right>form{
-    display: flex;
-flex-direction: column;
-gap: 2rem;
-align-items: center;
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
 }
 
-.c-right .user{
-    width: 20rem;
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+
+@media all and (max-width: 1250px) {
+  .contact-form {
+    flex-direction: column;
+    padding: 0;
+    /* display: flex; */
+    height: auto;
+    /* margin-top: 4rem; */
+    /* border: 5px solid red; */
+    width: 100%;
+    /* margin-bottom: 3rem; */
+  }
+  .c-right .user {
+    width: 15rem;
     height: 2rem;
     padding: 0.3rem;
     outline: none;
     border: 2px solid var(--orange);
     border-radius: 8px;
     font-size: 16px;
-}
+  }
 
-textarea{
-    height: 4rem!important;
-}
+  .awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
-}
+  .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
-.phone{
-margin-top: 2rem;
-
-}
-
-
-
-.email{
-    margin-top: 0.5rem;
-}
-
-@media screen and (max-width:480px) {
-
-.contact-form{
-    margin-top: 25rem;
-    display: grid;
-    margin-bottom: 10rem;
-    
-}
-.user{
-  margin-left: -2rem;
- 
-}
-
+  .cont {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5rem; */
+    justify-content: center;
+    align-items: center;
+  }
 }

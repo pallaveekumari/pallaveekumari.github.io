@@ -1,0 +1,125 @@
+.pCard {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+  /* border: 1px solid red; */
+  /* display: flex; */
+}
+.pCard-heading {
+  width: 100%;
+  height: 13%;
+  /* border: 5px solid red; */
+  text-align: center;
+  margin-bottom: 1rem;
+  /* text-decoration: underline; */
+}
+.pCard-heading > :nth-child(2) {
+  color: var(--orange);
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.pCard-heading > :nth-child(1) {
+  color: var(--black);
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.pCard-content {
+  display: flex;
+  gap: 2rem;
+  height: 92%;
+  /* border: 3px solid blue; */
+}
+.pCard-left {
+  width: 50%;
+  /* border: 3px solid rgb(241, 93, 118); */
+}
+.pCard-right {
+  width: 50%;
+  /* margin-top: 1.5rem; */
+  /* border: 2px solid black; */
+}
+.pCard-image {
+  width: 100%;
+  height: 100%;
+  border: 7px solid var(--orangeCard);
+  border-radius: 20px;
+}
+.pCard-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.pCard-right-desc > p {
+  text-align: center;
+}
+
+.tech > ul {
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    /* flex-direction: column; */
+    /* gap: 1.5rem; */
+    /* justify-content: center; */
+}
+.tech-heading {
+  color: var(--black);
+  text-align: center;
+}
+
+.tech-heading > p {
+  font-weight: bold;
+}
+
+.but {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+@media all and (max-width: 1250px) {
+  .tech > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    /* flex-direction: column; */
+    gap: 1.5rem;
+    /* justify-content: center; */
+  }
+  .pCard-content {
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2rem; */
+  }
+  .pCard-left {
+    width: 100%;
+  }
+  .pCard {
+    height: auto;
+  }
+  .pCard-right {
+    width: 100%;
+  }
+  .pCard-heading > :nth-child(2) {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .pCard-heading {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .pCard-heading > :nth-child(1) {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

@@ -1,61 +1,67 @@
-.experience{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    height: 30vh;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  /* height: 100rem; */
+  /* margin-bottom: 5rem; */
+  /* border: 5px solid red; */
 }
 
-.achievement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.circle{
-    width: 5rem;
-    height: 5rem;
-    background: white;
-    border-radius: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.achievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.circle::before{
-    border-radius: 100%;
-    content: "";
-    background-image: linear-gradient(to bottom,#87e6fb 0%, #ffc05c 100%);
-top: -8px;
-left: -8px;
-bottom: -8px;
-right: -8px;
-position: absolute;
-z-index: -1;
-box-shadow: var(--boxShadow);
-
+.circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: black;
 }
 
-.achievement span:nth-of-type(2)
-{
-    color: var(--orange);
+.circle::before {
+  border-radius: 100%;
+  content: "";
+  background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+  top: -8px;
+  left: -8px;
+  bottom: -8px;
+  right: -8px;
+  position: absolute;
+  z-index: -1;
+  box-shadow: var(--boxShadow);
 }
-@media screen and (max-width:480px) {
 
-   .experience{
+.achievement > span:nth-last-of-type(1) {
+  color: var(--orange);
+}
+
+@media all and (max-width: 1250px) {
+  .experience {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-   }
-   .circle{
-    width: 8rem;
-    height: 8rem;
-    margin-top: -4rem;
+    gap: 1rem;
+    height: auto;
+    margin-top: 2rem;
+    /* border: 2px solid blue; */
+    padding: 0;
+    width: 100%;
+  }
+
+  .circle {
+    margin-bottom: 0.3rem;
+  }
 }
 
-}
+

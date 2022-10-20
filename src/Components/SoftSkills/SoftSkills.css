@@ -1,0 +1,115 @@
+.services {
+  padding: 0.5rem 6.5rem;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  margin-bottom: 10rem;
+  padding-top: 3rem;
+  /* margin-top: 5rem; */
+  /* margin-bottom: 4rem; */
+  /* position: relative; */
+  /* border: 5px solid red; */
+}
+
+.softskill{
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.s-button {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+/* .cards {
+  position: relative;
+} */
+
+/* .cards > * {
+  position: absolute;
+} */
+
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+/* .team{
+  left: 14rem;
+}
+
+.time{
+  left: -4rem;
+  top: 12rem;
+}
+
+.adapt{
+  left: 32rem;
+  top: 12rem;
+} */
+
+.cards{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+@media all and (max-width: 480px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width:481px) and (max-width: 1250px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+    -ms-grid-column-align: center;
+  }
+}

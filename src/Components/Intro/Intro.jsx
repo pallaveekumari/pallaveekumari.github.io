@@ -1,85 +1,69 @@
-import React from 'react'
-import "./Intro.css"
-import Github from "../../img/github.png"
-import LinkedIn from "../../img/linkedin.png"
+import React, { useContext } from "react";
+import "./Intro.css";
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
 
-import Vector1 from "../../img/Vector1.png"
-import Vector2 from "../../img/Vector2.png"
-import thumbup from "../../img/thumbup.png"
-import Crown from "../../img/crown.png"
-import glassesimoji from "../../img/glassesimoji.png"
-import FloatingDiv from '../FloatingDiv/FloatingDiv'
-// import {motion} from "framer-motion"
-import resume from "../../img/resume.pdf"
-import pal from "../../img/pal.jpg"
+import pall from "./pal.jpeg"
+
+
+
+import Resume from "./Pallavee_Kumari_Resume.pdf";
+import { themeContext } from "../../Context";
+
+
 const Intro = () => {
+  const transition = { duration: 2, type: "spring" };
 
-  const transition ={duration:2 ,type:"spring"}
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
-    <div className='intro' id='Navhome'>
-      <div className='i=left'>
-        <div className='i-name'>
-        <span>Hey 👋 I'm Pallavee</span>
-        <span>Welcome to my portfolio!</span>
-        <span>I am a passionate Full Stack Web 
+    <div className="intro" id="intro">
+      <div className="i-left">
+        <div className="i-name">
+          <span style={darkMode ? { color: "white" } : null}>Hey👋 I Am</span>
+          <span>Pallavee Kumari</span>
+          <span>
+          I am a passionate Full Stack Web 
             Developer with the ability to 
             write clean, reusable,
              optimised code.
-        </span>
+          </span>
         </div>
-        <a href={resume} download>
-        <button className='button i-button'>Resume</button>
+        <a href={Resume} download>
+          <button className="button s-button">Download Resume</button>
         </a>
-
-
-   <div className='i-icons'>
-    <a href="https://github.com/pallaveekumari" target="_blank">
-
-    <img src={Github} alt="" />
-    </a>
-    <a href="https://www.linkedin.com/in/pallavee-kumari-493338230/" target="_blank">
-
-    <img src={LinkedIn} alt="" />
-    </a>
-    
-   </div>
-      
-      
+        <div className="i-icons">
+          <a href="https://github.com/pallaveekumari" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pallavee-kumari-493338230/"
+            target="_blank"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+        </div>
       </div>
-
-
-
-
-      <div className='i-right'>
-<div></div>
-<div className='pimgdiv'>
+      <div className="i-right">
        
-          <img className='palimg' src={pal} alt="" /> 
-          </div>
-         {/* <img className="emoji" src={glassesimoji} alt="" /> */}
-<div style={{top:"-4%",left:"50%"}} className="floating-div">
-    <FloatingDiv image={Crown} txt1="Web" txt2="Developer"/>
-</div>
-
-
-
-{/* <div>
-    <FloatingDiv image={thumbup} txt1=""/>
-</div> */}
-
-<div className='blur' style={{background:"#C1F5FF",
-top:"17rem",
-width:"21rem",
-height: "11rem",
-left: "-9rem"
-}}>
-
-
-</div>
+        <img src={pall} alt="" />
+        
+        <div
+          className="blur"
+          style={{
+            background: "#C1F5FF",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
+       
       </div>
+      <img className="lastImg" src={pall} alt=""/>
     </div>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

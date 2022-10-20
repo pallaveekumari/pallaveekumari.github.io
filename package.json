@@ -5,14 +5,16 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
+    "@iconscout/react-unicons": "^1.1.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "emailjs": "^4.0.1",
-    "framer-motion": "^7.3.5",
-    "github-calendar": "^2.3.1",
+    "framer-motion": "^7.3.6",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^17.0.2",
+    "react-github-calendar": "^3.3.4",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.0"
