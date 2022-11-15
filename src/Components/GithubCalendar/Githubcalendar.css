@@ -13,9 +13,7 @@
   margin-bottom: 3rem;
   position: relative;
 }
-.calendar {
-  /* border: 2px solid red; */
-}
+
 
 @media all and (max-width: 1250px) {
   .github {
@@ -23,7 +21,7 @@
     /* width: 130%; */
     padding: 0;
     /* border:5px solid pink; */
-    margin: 0;
+    margin: auto;
   }
   .code > :nth-child(1) {
     /* transform: scale(0.1);

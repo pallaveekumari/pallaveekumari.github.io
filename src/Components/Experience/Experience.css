@@ -8,6 +8,24 @@
   /* border: 5px solid red; */
 }
 
+.stats{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.stats>img{
+  /* width: 100%; */
+  display: flex;
+  gap: 2rem;
+}
+
+
+
 .achievement {
   display: flex;
   flex-direction: column;
@@ -62,6 +80,31 @@
   .circle {
     margin-bottom: 0.3rem;
   }
+
+  .stats{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .stats>img{
+  width: auto;
+  }
+
+
+
+
 }
 
+
+@media all and (max-width:500px){
+ 
+  .stats>img{
+   width: 15rem
+  }
+ }
 

@@ -4,7 +4,7 @@ import "./Experience.css"
 
 const Experience = () => {
   return (
-    <>
+    <div style={{marginTop:"1.5rem"}}>
     <div className="experience">
         <div className="achievement">
             <div className="circle">1200+</div>
@@ -29,18 +29,14 @@ const Experience = () => {
     </div>
 
   
-
+<div className='stats'>
 <img  src="https://github-readme-stats.vercel.app/api?username=pallaveekumari&show_icons=true&locale=en" alt="pallaveekumari" />
 
 <img  src="https://github-readme-streak-stats.herokuapp.com/?user=pallaveekumari&" alt="pallaveekumari" />
 
-
-
-
-
-
-    <Github/>
-    </>
+</div>
+<Github/>
+  </div>
   )
 }
 

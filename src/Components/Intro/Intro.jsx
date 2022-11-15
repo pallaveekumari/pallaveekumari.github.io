@@ -7,7 +7,7 @@ import pall from "./pal.jpeg"
 
 
 
-import Resume from "./Pallavee_Kumari_Resume.pdf";
+import Resume from "./Pallavee-Kumari-Resume.pdf";
 import { themeContext } from "../../Context";
 
 
