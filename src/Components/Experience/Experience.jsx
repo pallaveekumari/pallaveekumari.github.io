@@ -27,6 +27,18 @@ const Experience = () => {
             <span>Commits</span>
         </div>
     </div>
+
+  
+
+<img  src="https://github-readme-stats.vercel.app/api?username=pallaveekumari&show_icons=true&locale=en" alt="pallaveekumari" />
+
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=pallaveekumari&" alt="pallaveekumari" />
+
+
+
+
+
+
     <Github/>
     </>
   )

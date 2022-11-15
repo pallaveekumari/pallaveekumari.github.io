@@ -31,7 +31,9 @@ const Intro = () => {
           </span>
         </div>
         <a href={Resume} download>
-          <button className="button s-button">Download Resume</button>
+          <button onClick={()=>{
+            window.open("https://drive.google.com/file/d/1QObry-5ojaFW_hu3AnTa7z7F_wjONwdg/view?usp=sharing","_blank")
+          }}className="button s-button">Download Resume</button>
         </a>
         <div className="i-icons">
           <a href="https://github.com/pallaveekumari" target="_blank">
