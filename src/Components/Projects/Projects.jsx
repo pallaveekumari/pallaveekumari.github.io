@@ -31,7 +31,7 @@ const Projects = () => {
       <ProjectCard
           live="https://waytoglobe.vercel.app/"
           git="https://github.com/Mohammadzaki0027/hurried-hospital-4011"
-          tech={["HTML", "CSS", "Javascript", "React","Redux","MongoDB","Express","Chakra UI","GitHub","Heroku"]}
+          tech={["HTML", "CSS", "Javascript", "React","Redux","MongoDB","Express","Chakra UI","GitHub","Render"]}
           desc="The Website is use to book the Flight, Cars, Hotels, at reasonable price and it is vary on customer expectation."
           pFName="WayToGlobe"
           pLName="Clone"
