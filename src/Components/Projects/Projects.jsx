@@ -12,6 +12,7 @@ import dnaindia from "../../img/dnaindia.png"
 import zoomcar from "../../img/zoomcar.png"
 import naturesbasket from "../../img/naturesbasket.png"
 import bestbuy from "../../img/bestbuy.png"
+import waytogloble from "../../img/waytoglobe.png"
 const Projects = () => {
 
   const theme = useContext(themeContext);
@@ -27,6 +28,15 @@ const Projects = () => {
         {/* <div className='blur s-blur1' style={{background:"#ABF1FF94",zIndex:1}} ></div> */}
       </div>
       <div className="p-mainDiv">
+      <ProjectCard
+          live="https://waytoglobe.vercel.app/"
+          git="https://github.com/Mohammadzaki0027/hurried-hospital-4011"
+          tech={["HTML", "CSS", "Javascript", "React","Redux","MongoDB","Express","Chakra UI","GitHub","Heroku"]}
+          desc="The Website is use to book the Flight, Cars, Hotels, at reasonable price and it is vary on customer expectation."
+          pFName="WAY_TO_GLOBE"
+          pLName="Clone"
+          image={waytogloble}
+        />
       <ProjectCard
           live="https://bellavitaaorganiccloneproject.netlify.app/"
           git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
