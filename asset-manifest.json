@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05dfe7c9.css",
-    "main.js": "/static/js/main.b7488b3f.js",
+    "main.js": "/static/js/main.dfbea605.js",
     "static/media/naturesbasket.png": "/static/media/naturesbasket.988e18fa0218abb03224.png",
     "static/media/dnaindia.png": "/static/media/dnaindia.23280e766599c6c92ef7.png",
     "static/media/bellavitta.png": "/static/media/bellavitta.c60b55d5b69a413ce604.png",
@@ -17,10 +17,10 @@
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/index.html",
     "main.05dfe7c9.css.map": "/static/css/main.05dfe7c9.css.map",
-    "main.b7488b3f.js.map": "/static/js/main.b7488b3f.js.map"
+    "main.dfbea605.js.map": "/static/js/main.dfbea605.js.map"
   },
   "entrypoints": [
     "static/css/main.05dfe7c9.css",
-    "static/js/main.b7488b3f.js"
+    "static/js/main.dfbea605.js"
   ]
 }
