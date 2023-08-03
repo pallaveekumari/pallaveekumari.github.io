@@ -30,6 +30,7 @@ const Intro = () => {
              optimised code.
           </span>
         </div>
+        
         <a href={Resume} download>
           <button onClick={()=>{
             window.open("https://drive.google.com/file/d/1NjEaAsPBF2QQKBsClt4VynJQckIVW8og/view?usp=sharing","_blank")
