@@ -32,26 +32,7 @@ export const frontSkillsList = [
     label: "NPM",
     src: "https://img.icons8.com/color/480/000000/npm.png",
   },
-  {
-     label: "Go Lang",
-     src:"https://miro.medium.com/v2/resize:fit:1000/0*YISbBYJg5hkJGcQd.png",
-  },
-  {
-    label: "MySql",
-    src:"https://www.techrepublic.com/wp-content/uploads/2016/08/mysqlhero.jpg",
-  },
-  {
-    label: "DataDog",
-    src:"https://mma.prnewswire.com/media/1434744/Datadog_Logo.jpg",
-  },
-  {
-    label: "Grafana",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-  },
-  {
-    label: "Prometheus",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-  },
+ 
 ];
 
 export const backSkillsList = [
@@ -102,7 +83,27 @@ export const backSkillsList = [
   {
     label: "Heroku",
     src: "https://cdn-icons-png.flaticon.com/512/873/873120.png"
-  }
+  },
+  {
+    label: "Go Lang",
+    src:"https://miro.medium.com/v2/resize:fit:1000/0*YISbBYJg5hkJGcQd.png",
+ },
+ {
+   label: "MySql",
+   src:"https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png",
+ },
+ {
+   label: "DataDog",
+   src:"https://mma.prnewswire.com/media/1434744/Datadog_Logo.jpg",
+ },
+ {
+   label: "Grafana",
+   src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+ },
+ {
+   label: "Prometheus",
+   src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+ },
 ];
 
 
