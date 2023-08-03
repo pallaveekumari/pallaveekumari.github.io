@@ -34,23 +34,23 @@ export const frontSkillsList = [
   },
   {
      label: "Go Lang",
-     src:"",
+     src:"https://miro.medium.com/v2/resize:fit:1000/0*YISbBYJg5hkJGcQd.png",
   },
   {
     label: "MySql",
-    src:"",
+    src:"https://www.techrepublic.com/wp-content/uploads/2016/08/mysqlhero.jpg",
   },
   {
     label: "DataDog",
-    src:"",
+    src:"https://mma.prnewswire.com/media/1434744/Datadog_Logo.jpg",
   },
   {
     label: "Grafana",
-    src:"",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
   },
   {
     label: "Prometheus",
-    src:"",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
   },
 ];
 

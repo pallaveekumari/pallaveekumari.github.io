@@ -1,12 +1,10 @@
 import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import "./Projects.css";
-// import lumen5 from "../../img/Lumen5.png";
-// import gear from "../../img/GearBest.png";
-// import shopbop from "../../img/ShopBop.png"
+
 import { useContext } from "react";
 import { themeContext } from "../../Context";
-// import credo from "../../img/credobeauty.png"
+
 import bellavitta from "../../img/bellavitta.png"
 import dnaindia from "../../img/dnaindia.png"
 import zoomcar from "../../img/zoomcar.png"
