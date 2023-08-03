@@ -35,6 +35,15 @@ const Projects = () => {
           pLName="Clone"
           image={waytogloble}
         />
+        <ProjectCard
+         live="https://aumntik.netlify.app/"
+         git="https://github.com/pallaveekumari/Agumentik_Landing_Page"
+         tech={["HTML", "CSS", "Javascript", "React","MongoDB","NodeJS","GitHub","Render"]}
+         desc="This is my individual Project. where user can login and signup . admin can change all the contents and images from admin panel and can make another user admin."
+         pFName="dribble"
+         pLName="Clone"
+         image={waytogloble}
+        />
       <ProjectCard
           live="https://bellavitaaorganiccloneproject.netlify.app/"
           git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
