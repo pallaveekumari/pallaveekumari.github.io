@@ -32,6 +32,26 @@ export const frontSkillsList = [
     label: "NPM",
     src: "https://img.icons8.com/color/480/000000/npm.png",
   },
+  {
+     label: "Go Lang",
+     src:"",
+  },
+  {
+    label: "MySql",
+    src:"",
+  },
+  {
+    label: "DataDog",
+    src:"",
+  },
+  {
+    label: "Grafana",
+    src:"",
+  },
+  {
+    label: "Prometheus",
+    src:"",
+  },
 ];
 
 export const backSkillsList = [
