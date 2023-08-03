@@ -1,14 +1,14 @@
-import Navbar1 from "./components/Navbar/Navbar";
+import Navbar1 from "./Components/Navbar/Navbar";
 import "./App.css";
-import Intro from "./components/Intro/Intro";
-import SoftSkills from "./components/SoftSkills/SoftSkills";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Intro from "./Components/Intro/Intro";
+import SoftSkills from "./Components/SoftSkills/SoftSkills";
+import Projects from "./Components/Projects/Projects"
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
-import Skills from "./components/Skills/Skills";
-import About from "./components/About/About";
+import Skills from "./Components/Skills/Skills";
+import About from "./Components/About/About";
 
 function App() {
   const theme = useContext(themeContext);

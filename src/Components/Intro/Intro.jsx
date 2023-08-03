@@ -7,7 +7,7 @@ import pall from "./pal.jpeg"
 
 
 
-import Resume from "./Pallavee-Kumari-Resume.pdf";
+import Resume from "./Pallavee_Kumari_Resume.pdf";
 import { themeContext } from "../../Context";
 
 
@@ -32,7 +32,7 @@ const Intro = () => {
         </div>
         <a href={Resume} download>
           <button onClick={()=>{
-            window.open("https://drive.google.com/file/d/1QObry-5ojaFW_hu3AnTa7z7F_wjONwdg/view?usp=sharing","_blank")
+            window.open("https://drive.google.com/file/d/1NjEaAsPBF2QQKBsClt4VynJQckIVW8og/view?usp=sharing","_blank")
           }}className="button s-button">Download Resume</button>
         </a>
         <div className="i-icons">
