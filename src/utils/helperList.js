@@ -86,7 +86,7 @@ export const backSkillsList = [
   },
   {
     label: "Go Lang",
-    src:"https://miro.medium.com/v2/resize:fit:1000/0*YISbBYJg5hkJGcQd.png",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
  },
  {
    label: "MySql",
@@ -104,6 +104,10 @@ export const backSkillsList = [
    label: "Prometheus",
    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
  },
+ {
+  label: "TypeScript",
+  src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+ }
 ];
 
 
