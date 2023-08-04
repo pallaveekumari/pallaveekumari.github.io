@@ -11,6 +11,7 @@ import zoomcar from "../../img/zoomcar.png"
 import naturesbasket from "../../img/naturesbasket.png"
 import bestbuy from "../../img/bestbuy.png"
 import waytogloble from "../../img/waytoglobe.png"
+import dribble from "../../img/dribble.png"
 const Projects = () => {
 
   const theme = useContext(themeContext);
@@ -42,7 +43,7 @@ const Projects = () => {
          desc="This is my individual Project. where user can login and signup . admin can change all the contents and images from admin panel and can make another user admin."
          pFName="dribble"
          pLName="Clone"
-         image={waytogloble}
+         image={dribble}
         />
       <ProjectCard
           live="https://bellavitaaorganiccloneproject.netlify.app/"
