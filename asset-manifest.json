@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.05dfe7c9.css",
-    "main.js": "/static/js/main.8b3d963d.js",
+    "main.js": "/static/js/main.6d01266b.js",
     "static/media/naturesbasket.png": "/static/media/naturesbasket.988e18fa0218abb03224.png",
     "static/media/dnaindia.png": "/static/media/dnaindia.23280e766599c6c92ef7.png",
+    "static/media/Pallavee_Kumari_Resume.pdf": "/static/media/Pallavee_Kumari_Resume.db72a7ad2d9d291ab51b.pdf",
     "static/media/bellavitta.png": "/static/media/bellavitta.c60b55d5b69a413ce604.png",
-    "static/media/Pallavee-Kumari-Resume.pdf": "/static/media/Pallavee-Kumari-Resume.307cf3a8991c6920bbb0.pdf",
     "static/media/waytoglobe.png": "/static/media/waytoglobe.aa48a701dffff548b459.png",
     "static/media/bestbuy.png": "/static/media/bestbuy.e75eb2f751dcc9c627ee.png",
-    "static/media/pal.jpeg": "/static/media/pal.3acc494d194ab2415c33.jpeg",
+    "static/media/pal.jpeg": "/static/media/pal.577d734dad851920e9ff.jpeg",
     "static/media/zoomcar.png": "/static/media/zoomcar.02c80f5ff45c2dc34e41.png",
+    "static/media/dribble.png": "/static/media/dribble.193b3b8748e33ca22462.png",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
@@ -17,10 +18,10 @@
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/index.html",
     "main.05dfe7c9.css.map": "/static/css/main.05dfe7c9.css.map",
-    "main.8b3d963d.js.map": "/static/js/main.8b3d963d.js.map"
+    "main.6d01266b.js.map": "/static/js/main.6d01266b.js.map"
   },
   "entrypoints": [
     "static/css/main.05dfe7c9.css",
-    "static/js/main.8b3d963d.js"
+    "static/js/main.6d01266b.js"
   ]
 }
