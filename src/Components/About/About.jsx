@@ -30,10 +30,10 @@ const About = () => {
       <p>🏡 I am from Gaya, Bihar.</p>
 <p>🤝 I think of myself as a DownToEarth person.</p>
 <p>❤️ I love designing websites and I am looking for more opportunities to work in coding.</p>
-<p>🤗 I have worked on several different projects collaboratively and solely.
-   I am a self-driven and passionate web developer skilled in JavaScript, React, and Redux and familiar with front-end frameworks like 
-   chakraUI. Gone through 35 weeks of coding Bootcamp at Masai School.Also, worked on NodeJs, Express, MongoDB DataBase.
-   Always eager to learn new technologies to enhance my skills and bring value to the organization</p>
+<p>❤️ I have worked on several different projects collaboratively and indivisual.
+Experienced web developer skilled in JavaScript, Typescript, React, and Redux. Completed a 35-week coding Bootcamp at Masai School. 
+Proficient in Node.js, Express, and MongoDB. Recently worked at Razorpay for two months as a SDE Intern, gaining expertise in Golang, MySQL, Grafana, Prometheus, Datadog.
+ Always eager to learn new technologies and bring value to organizations. Passionate about crafting user-friendly web applications and fostering a collaborative work culture.</p>
 
       </div>
       <Experience />
