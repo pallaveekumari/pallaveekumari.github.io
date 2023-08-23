@@ -27,13 +27,13 @@ const Intro = () => {
           I am a passionate Full Stack Web 
             Developer with the ability to 
             write clean, reusable,
-             optimised code.
+             optimised code. Demonstrated problem solving and curiosity to learn new technology and domain.
           </span>
         </div>
         
         <a href={Resume} download>
           <button onClick={()=>{
-            window.open("https://drive.google.com/file/d/1NjEaAsPBF2QQKBsClt4VynJQckIVW8og/view?usp=sharing","_blank")
+            window.open("https://drive.google.com/file/d/1xa1N0vt9lk23MLVj3g0WYpUZQM9eEzwW/view?usp=sharing","_blank")
           }}className="button s-button">Download Resume</button>
         </a>
         <div className="i-icons">
