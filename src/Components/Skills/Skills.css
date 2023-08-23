@@ -23,11 +23,11 @@
 }
 
 @media all and (max-width: 580px) {
-  .techSkills {
-    height: 160rem;
+  /* .techSkills {
+    /* height: 160rem; */
     /* border: 5px solid green; */
     /* margin-top: 20rem; */
-  }
+  /* }  */
 
   .frontend {
     grid-template-columns: repeat(1, 1fr);
