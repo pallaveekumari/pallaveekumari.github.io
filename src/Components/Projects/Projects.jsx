@@ -28,6 +28,17 @@ const Projects = () => {
       </div>
       <div className="p-mainDiv">
       <ProjectCard
+          live="https://bellavitaaorganiccloneproject.netlify.app/"
+          git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
+          tech={["HTML", "CSS", "Javascript", "React", "Chakra UI","GitHub","render","MongoDb","Express","Nodejs"]}
+          desc="Bella Vita Organic is a natural skincare brand in India.
+          They create handcrafted natural beauty products
+               which can solve all your skin concerns."
+          pFName="BellaVitta Organic"
+          pLName="Clone"
+          image={bellavitta}
+        />
+      <ProjectCard
           live="https://waytoglobe.vercel.app/"
           git="https://github.com/Mohammadzaki0027/hurried-hospital-4011"
           tech={["HTML", "CSS", "Javascript", "React","Redux","MongoDB","Express","Chakra UI","GitHub","Render"]}
@@ -45,17 +56,7 @@ const Projects = () => {
          pLName="Clone"
          image={dribble}
         />
-      <ProjectCard
-          live="https://bellavitaaorganiccloneproject.netlify.app/"
-          git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
-          tech={["HTML", "CSS", "Javascript", "React", "Chakra UI","GitHub","Heroku"]}
-          desc="Bella Vita Organic is a natural skincare brand in India.
-          They create handcrafted natural beauty products
-               which can solve all your skin concerns."
-          pFName="BellaVitta Organic"
-          pLName="Clone"
-          image={bellavitta}
-        />
+      
         <ProjectCard
           live="https://dnaindiaproject.vercel.app/"
           git="https://github.com/pallaveekumari/DNA-India-Clone"
