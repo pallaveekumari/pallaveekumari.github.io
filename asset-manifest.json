@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c75ddfb5.css",
-    "main.js": "/static/js/main.a45ef1be.js",
+    "main.js": "/static/js/main.927aac00.js",
     "static/media/naturesbasket.png": "/static/media/naturesbasket.988e18fa0218abb03224.png",
     "static/media/dnaindia.png": "/static/media/dnaindia.23280e766599c6c92ef7.png",
     "static/media/bellavitta.png": "/static/media/bellavitta.c60b55d5b69a413ce604.png",
-    "static/media/Pallavee_Kumari_Resume.pdf": "/static/media/Pallavee_Kumari_Resume.4a6a62b1509246096e92.pdf",
+    "static/media/Pallavee_Kumari_Resume.pdf": "/static/media/Pallavee_Kumari_Resume.0799fab34f1e4b2ac323.pdf",
     "static/media/waytoglobe.png": "/static/media/waytoglobe.aa48a701dffff548b459.png",
     "static/media/bestbuy.png": "/static/media/bestbuy.e75eb2f751dcc9c627ee.png",
     "static/media/pal.jpeg": "/static/media/pal.577d734dad851920e9ff.jpeg",
@@ -18,10 +18,10 @@
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/index.html",
     "main.c75ddfb5.css.map": "/static/css/main.c75ddfb5.css.map",
-    "main.a45ef1be.js.map": "/static/js/main.a45ef1be.js.map"
+    "main.927aac00.js.map": "/static/js/main.927aac00.js.map"
   },
   "entrypoints": [
     "static/css/main.c75ddfb5.css",
-    "static/js/main.a45ef1be.js"
+    "static/js/main.927aac00.js"
   ]
 }
