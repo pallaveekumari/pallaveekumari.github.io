@@ -33,7 +33,7 @@ const Intro = () => {
         
         <a href={Resume} download>
           <button onClick={()=>{
-            window.open("https://drive.google.com/file/d/1xa1N0vt9lk23MLVj3g0WYpUZQM9eEzwW/view?usp=sharing","_blank")
+            window.open("https://drive.google.com/file/d/1_SXKzpb83ELzXw5payUiwjRNQS8ZYdho/view?usp=sharing","_blank")
           }}className="button s-button">Download Resume</button>
         </a>
         <div className="i-icons">

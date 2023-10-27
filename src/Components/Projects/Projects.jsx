@@ -31,9 +31,7 @@ const Projects = () => {
           live="https://bellavitaaorganiccloneproject.netlify.app/"
           git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
           tech={["HTML", "CSS", "Javascript", "React", "Chakra UI","GitHub","render","MongoDb","Express","Nodejs"]}
-          desc="Bella Vita Organic is a natural skincare brand in India.
-          They create handcrafted natural beauty products
-               which can solve all your skin concerns."
+          desc="This project is an individual endeavor that replicates all the functionalities found on the BellaVitaOrganic website. Users can explore various pages, purchase products, utilize the login/signup features, and enjoy many other aspects present on the original website."
           pFName="BellaVitta Organic"
           pLName="Clone"
           image={bellavitta}
