@@ -12,6 +12,7 @@ import naturesbasket from "../../img/naturesbasket.png"
 import bestbuy from "../../img/bestbuy.png"
 import waytogloble from "../../img/waytoglobe.png"
 import dribble from "../../img/dribble.png"
+import techeagle from "../../img/techeagle.png"
 const Projects = () => {
 
   const theme = useContext(themeContext);
@@ -28,10 +29,19 @@ const Projects = () => {
       </div>
       <div className="p-mainDiv">
       <ProjectCard
+          live="https://techeagleassignmentproject.netlify.app/"
+          git="https://github.com/pallaveekumari/techEagle"
+          tech={["HTML", "CSS", "Javascript", "React", "Material UI","GitHub","render","MongoDb","Express","Nodejs"]}
+          desc="TechEagle is enabling last-mile goods(Healthcare products, Food, Parcels, etc.) delivery via DRONEs.Delivery Drones, Safe DRONE Operations, DRONE Delivery Pioneer in India, End to End Drone Solution for Package Delivey."
+          pFName="TechEagle "
+          pLName="Clone"
+          image={techeagle}
+        />
+      <ProjectCard
           live="https://bellavitaaorganiccloneproject.netlify.app/"
           git="https://github.com/pallaveekumari/BellavitaOrganic-Clone"
           tech={["HTML", "CSS", "Javascript", "React", "Chakra UI","GitHub","render","MongoDb","Express","Nodejs"]}
-          desc="This project is an individual endeavor that replicates all the functionalities found on the BellaVitaOrganic website. Users can explore various pages, purchase products, utilize the login/signup features, and enjoy many other aspects present on the original website."
+          desc="In BellaVitaOrganic website Users can explore various pages, purchase products, utilize the login/signup features, and enjoy many other aspects present on the original website."
           pFName="BellaVitta Organic"
           pLName="Clone"
           image={bellavitta}

@@ -84,10 +84,10 @@ export const backSkillsList = [
     label: "Heroku",
     src: "https://cdn-icons-png.flaticon.com/512/873/873120.png"
   },
-  {
-    label: "Go Lang",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
- },
+//   {
+//     label: "Go Lang",
+//     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+//  },
  {
    label: "MySql",
    src:"https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png",

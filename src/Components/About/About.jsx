@@ -32,7 +32,7 @@ const About = () => {
 <p>❤️ I love designing websites and I am looking for more opportunities to work in coding.</p>
 <p>❤️ I have worked on several different projects collaboratively and indivisual.
 Experienced web developer skilled in JavaScript, Typescript, React, and Redux. Completed a 35-week coding Bootcamp at Masai School. 
-Proficient in Node.js, Express, and MongoDB. Recently worked at Razorpay for two months as a SDE Intern, gaining expertise in Golang, MySQL, Grafana, Prometheus, Datadog.
+Proficient in Node.js, Express, and MongoDB. Recently worked at Razorpay for two months as a SDE Intern,and worked at Deel as SDE gaining expertise in MERN Technologies, MySQL, Grafana, Prometheus, Datadog.
  Always eager to learn new technologies and bring value to organizations. Passionate about crafting user-friendly web applications and fostering a collaborative work culture.</p>
 
       </div>
