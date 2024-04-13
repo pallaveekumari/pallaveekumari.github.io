@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c75ddfb5.css",
-    "main.js": "/static/js/main.227ade22.js",
+    "main.js": "/static/js/main.1b44f4ee.js",
     "static/media/techeagle.png": "/static/media/techeagle.e1d563806a7a2ec79606.png",
     "static/media/naturesbasket.png": "/static/media/naturesbasket.988e18fa0218abb03224.png",
     "static/media/dnaindia.png": "/static/media/dnaindia.23280e766599c6c92ef7.png",
@@ -10,7 +10,7 @@
     "static/media/bestbuy.png": "/static/media/bestbuy.e75eb2f751dcc9c627ee.png",
     "static/media/pal.jpeg": "/static/media/pal.577d734dad851920e9ff.jpeg",
     "static/media/zoomcar.png": "/static/media/zoomcar.02c80f5ff45c2dc34e41.png",
-    "static/media/Pallavee_Kumari_Resume.pdf": "/static/media/Pallavee_Kumari_Resume.db129d4c40d1c12f03cb.pdf",
+    "static/media/Pallavee_Kumari_Resume.pdf": "/static/media/Pallavee_Kumari_Resume.189b59860d9dc566f849.pdf",
     "static/media/dribble.png": "/static/media/dribble.193b3b8748e33ca22462.png",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
@@ -19,10 +19,10 @@
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "index.html": "/index.html",
     "main.c75ddfb5.css.map": "/static/css/main.c75ddfb5.css.map",
-    "main.227ade22.js.map": "/static/js/main.227ade22.js.map"
+    "main.1b44f4ee.js.map": "/static/js/main.1b44f4ee.js.map"
   },
   "entrypoints": [
     "static/css/main.c75ddfb5.css",
-    "static/js/main.227ade22.js"
+    "static/js/main.1b44f4ee.js"
   ]
 }
